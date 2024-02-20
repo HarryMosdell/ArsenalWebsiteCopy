@@ -1,9 +1,21 @@
-#p:hover  .redTextOnHover {
+#row:hover  .redTextOnHover {
                               
-    color: red!important;
+    color: #f00000!important;
   }
 
-  #p:hover .CardOverlay {
+  #row:hover .CardOverlay {
     background-color: rgba(240,0,0,.5)!important;
-    color: red!important;
+    color: #f00000!important;
+  }
+
+
+
+  #column:hover  .redTextOnHover {
+                              
+    color: #f00000!important;
+  }
+
+  #column:hover .CardOverlay {
+    background-color: rgba(240,0,0,.5)!important;
+    color: #f00000!important;
   }
