@@ -1,0 +1,9 @@
+#p:hover  .redTextOnHover {
+                              
+    color: red!important;
+  }
+
+  #p:hover .CardOverlay {
+    background-color: rgba(240,0,0,.5)!important;
+    color: red!important;
+  }
