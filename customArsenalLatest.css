@@ -9,6 +9,7 @@
   }
 
 
+
   .column:hover  .redTextOnHover {
                               
     color: #f00000!important;
@@ -17,4 +18,15 @@
   .column:hover .CardOverlay {
     background-color: rgba(240,0,0,.5)!important;
     color: #f00000!important;
+  }
+
+  @media only screen and (min-width: 761px) {
+    .position-md-absolute {
+      position: absolute;
+    }
+
+    .color-md-white {
+
+        color:white!important;
+    }
   }
