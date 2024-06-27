@@ -22,11 +22,7 @@
     }
   }
 
-.zoom {
 
-    transition: transform .3s ;
-    
-}
   .zoom:hover img {
 
     transform: scale(1.05); 
