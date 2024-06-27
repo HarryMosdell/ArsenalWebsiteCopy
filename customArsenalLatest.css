@@ -1,23 +1,14 @@
-.rowHover:hover  .redTextOnHover {
-                              
-    color: #f00000!important;
-  }
+
 
 .rowHover:hover .CardOverlay {
     background-color: rgba(240,0,0,.5)!important;
-    color: #f00000!important;
+    
   }
 
-
-
-  .column:hover  .redTextOnHover {
-                              
-    color: #f00000!important;
-  }
 
   .column:hover .CardOverlay {
     background-color: rgba(240,0,0,.5)!important;
-    color: #f00000!important;
+
   }
 
   @media only screen and (min-width: 761px) {
@@ -29,4 +20,11 @@
 
         color:white!important;
     }
+  }
+
+
+  .zoom:hover img {
+
+    transform: scale(1.03); 
+  
   }
